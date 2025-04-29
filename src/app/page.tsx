@@ -20,7 +20,7 @@ export default function Home() {
           demir demircioglu
         </h1>
         <p className="text-neutral-600 text-lg leading-relaxed">
-          16 y/o developer from Turkey 🇹🇷 — currently building kurtul., an addiction recovery companion app for the turkish market. passionate about development, creating solutions and entrepreneurship.
+          16 y/o from Turkey 🇹🇷 — currently building kurtul., an addiction recovery companion app for the turkish market. passionate about development, creating solutions and entrepreneurship.
         </p>
       </section>
 
@@ -46,9 +46,18 @@ export default function Home() {
         <h2 className="text-sm text-neutral-600 mb-6">projects</h2>
         <div className="space-y-12">
           <div>
-            <h2 className="text-3xl font-normal mb-6">kurtul.</h2>
+            <h2 className="text-3xl font-normal mb-6">
+              <a 
+                href="https://apps.apple.com/us/app/kurtul/id6744556494"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-neutral-600 transition-colors"
+              >
+                kurtul.
+              </a>
+            </h2>
             <p className="text-neutral-600 text-sm leading-relaxed">
-              an ios app helping turkish users in their journey of overcoming their addictions. currently under review for the app store.
+              an ios app helping turkish users in their journey of overcoming their addictions. 
             </p>
           </div>
         </div>
